@@ -8,7 +8,7 @@ main_program
     cin >> nsides;
     repeat(nsides) {
         forward(100);
-        right(360.0/nsides);
+        right(360.0/nsides); // Exterior angle of an n sided polygon is 360/n
     }
     wait(10);
 }
